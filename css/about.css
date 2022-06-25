@@ -3,7 +3,7 @@
   margin-top: 3rem;
 }
 
-.container {
+.about-achievements-container {
   display: grid;
   grid-template-columns: 40% 60%;
   gap: 5rem;
@@ -113,4 +113,55 @@
 
 .team-member-socials a {
   padding: 1rem;
+}
+
+/* ========== MEDIA QUERIES (TABLETS)========== */
+@media screen and (max-width: 1024px) {
+  .about-achievements {
+    margin-top: 2rem;
+  }
+  .about-achievements-container {
+    grid-template-columns: 1fr;
+    grid: 4rem;
+  }
+
+  .about-achievements-left {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .team-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .team-member {
+    padding: 1rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+}
+
+/* ========== MEDIA QUERIES (PHONES)========== */
+@media screen and (max-width: 600px) {
+  .achievements-cards {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .team-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.7rem;
+  }
+
+  .team-member {
+    padding: 0;
+  }
+
+  .team-member p {
+    margin-bottom: 1.5rem;
+  }
 }

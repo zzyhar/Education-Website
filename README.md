@@ -1,4 +1,4 @@
-# Education Website 
+# Educational Website 
 
 # General Info: 
 

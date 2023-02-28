@@ -2,7 +2,7 @@
 
 # General Info: 
 
-## Education multi page mobile friendly full responsive website. 
+Education multi page mobile friendly full responsive website. 
 It has smooth animation, for each page, all clickable sections 
 are highlighted with hovering effect and fully responsive. 
 Also all redirects to the media are responsive as well. 
